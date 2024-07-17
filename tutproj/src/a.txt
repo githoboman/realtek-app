@@ -1,0 +1,3 @@
+ react is all about using component a component can contain html and javascript together
+ the code can be returned and re usable
+ 
