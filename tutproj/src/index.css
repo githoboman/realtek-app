@@ -76,3 +76,6 @@ h4{
     font-size: larger;
     text-transform: capitalize;
 }
+.button-div{
+    row-gap: 20px;
+}
