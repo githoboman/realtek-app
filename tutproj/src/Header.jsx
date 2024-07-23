@@ -1,18 +1,24 @@
-
+import { FaCompressArrowsAlt } from "react-icons/fa";
 function Header(){
     return (
-        <header>
-            <h1>my website</h1>
+        <>
+        <header className="head">
+            <h2>my website <span>&copy;</span></h2>
             <nav>
-                <ul>
-                    <li><a href="#"></a>run</li>
-                    <li><a href="#"></a>oo</li>
-                    <li><a href="#"></a>oo</li>
-                    <li><a href="#"></a>os</li>
+                <ul id="lining">
+                    <li><a href="#"></a>home</li>
+                    <li><a href="#"></a>about me</li>
+                    <li><a href="#"></a>services</li>
+                    <li><a href="#"></a>my work</li>
                 </ul>
             </nav>
-
+            < button id="connectx">
+        connect
+        <FaCompressArrowsAlt />
+    </button>
         </header>
+  
+    </>
     ) 
 
 }

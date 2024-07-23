@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    background-image:url(/massets/photo-1643961058882-f6c5c6a7b46c.avif);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    color: rgb(231, 186, 117);
+    scroll-behavior: smooth;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: none;
+}
+.head nav {
+    border-radius: 17px;
+    border: solid 1px #f0f8ff;
+    padding-right: 13px;
+}
+.head h2  {
+    text-transform: capitalize;
+}
+#connectx{
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 17px;
+    background-color: inherit;
+    color: blanchedalmond;
+    display: flex;
+    gap: 9px;
+    border: none;
+    
+}
+#connectx:hover{
+    background-color: beige;
+    color: black;
+}
+
+li{
+    list-style: none;
+    text-transform: capitalize;
+    font-size: large;
+}
+#lining{
+    display: flex;
+    gap: 13px;
+
+
+}
+
+#divs{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+   
+}
+img{
+    height: 170px;
+    width: 180px;
+    border-radius: 100%;
+}
+.centering-img{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+h4{
+    font-size: larger;
+    text-transform: capitalize;
+}

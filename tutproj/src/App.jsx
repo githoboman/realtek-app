@@ -10,6 +10,7 @@ the app component  ties aall other component together
  import Header from "./Header.jsx"
  import Footer from "./Footer.jsx"
  import Food from "./Food.jsx"
+ import Body from "./Body.jsx"
 
 function App() {
   return (
@@ -17,8 +18,10 @@ function App() {
     {/* we can rearrange components by putting them ontop each other */}
     
     <Header/>
+    <Body/>
     <Food/>
     <Footer/>
+    
     </> 
   );
 
