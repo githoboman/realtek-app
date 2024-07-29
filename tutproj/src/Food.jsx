@@ -11,10 +11,12 @@ function Food () {
      return (
         <>
         {/* <img src={boysx} alt="mano" /> */}
+        <div id="centered">
 
-        <p>
-            i am experienced web developer withs couples of experience
-            in the field . throughout my career i have made brilliant 
+        <p className="craze">
+            i am  an experienced web developer with  years of experience
+            in the field throughout my career 
+            i have made many brilliant 
             and responsive websites.
         </p>
         <div className="grid-container">
@@ -27,6 +29,8 @@ function Food () {
             <div className="prodiv"><GoBriefcase />
             <p>projects
                 stactic website, crpto app</p></div>
+        </div>
+
         </div>
 
        {/*   <ul>
