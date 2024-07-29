@@ -20,7 +20,7 @@ button{
     text-transform: capitalize;
 }
 nav{
-    display: none;
+    display: block;
 }
 .head nav {
     border-radius: 17px;
@@ -65,11 +65,13 @@ li{
    
 }
 /* body style*/
-img{
-    height: 170px;
-    width: 180px;
-    border-radius: 100%;
+
+.bodyim  {
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
 }
+
 #img-id{
     display: grid;
     place-items: center;
@@ -112,13 +114,30 @@ h4{
     text-transform: capitalize;
 }
 
+
 /*food styling */
 #centered{
     display: grid;
     place-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 2rem;
     text-transform: capitalize;
     font-size: 1.3rem;
-}
 
+}
+.VIBEIM{
+    width: 230px;
+    height: 320px;
+
+}
+.grid-container{
+    margin-top: 6rem;
+    padding: 25px;
+    display: flex;
+    gap: 10px;
+    width: 90%;
+}
+.landiv{
+    padding: 10px;
+
+}

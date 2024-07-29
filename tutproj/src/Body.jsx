@@ -1,4 +1,4 @@
-import toys from "./assets/toy.avif"
+
 import { HiOutlineFire } from "react-icons/hi";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { FaDownload } from "react-icons/fa6";
@@ -12,7 +12,8 @@ function Body(){
 
     
     <div id="img-id">
-        <img src={toys} alt="man" />
+        <img src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tfGVufDB8fDB8fHww" alt="pic" className="bodyim" />
+    
         </div>
         
         <div id="texty">
